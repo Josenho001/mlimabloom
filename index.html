@@ -10,17 +10,15 @@
   <link rel="preconnect" href="https://gstatic.com" crossorigin>
   <link href="https://googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
   <title>Mlima Bloom Limited | Premium Kenyan Summer Flower Export</title>
-  <style>
-    body { font-family: 'Plus Jakarta Sans', sans-serif; }
-    h1, h2, h3 { font-family: 'Playfair Display', serif; }
-
-    /* Exact Logo Color Class fallbacks if you don't use the Tailwind script tool */
-    .text-bloom-green { color: #006847; }
-    .bg-bloom-green { background-color: #006847; }
-    .text-bloom-gold { color: #C5A039; }
-    .bg-bloom-gold { background-color: #C5A039; }
-    .hover\:text-bloom-gold:hover { color: #C5A039; }
-  </style>
+ <style type="text/tailwindcss">
+  body { font-family: 'Plus Jakarta Sans', sans-serif; }
+  h1, h2, h3 { font-family: 'Playfair Display', serif; }
+  
+  @theme {
+    --color-bloom-green: #006847;
+    --color-bloom-gold: #C5A039;
+  }
+</style>
  
 </head>
 <body class="bg-stone-50 text-stone-800 antialiased">
